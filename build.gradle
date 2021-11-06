@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+    implementation 'com.google.guava:guava:28.0-jre'
+    implementation 'javax.xml.ws:jaxws-api:2.3.1'
+    implementation 'javax.jws:javax.jws-api:1.1'
+    implementation 'com.sun.xml.ws:jaxws-ri:2.3.3'
+}
+
+run {
+    main = 'provider.Provider'
+}
+
+test {
+    useJUnitPlatform()
+}

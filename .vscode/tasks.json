@@ -1,0 +1,26 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "gradle",
+			"id": "c:\\Users\\DELL\\Desktop\\AUI - Fall 2021\\Adv & Dist programming paradigms\\homework2jarxFx",
+			"script": "jar",
+			"description": "Assembles a jar archive containing the main classes.",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"project": "xFx",
+			"buildFile": "C:\\Users\\DELL\\Desktop\\AUI - Fall 2021\\Adv & Dist programming paradigms\\homework2\\build.gradle",
+			"rootProject": "xFx",
+			"projectFolder": "c:\\Users\\DELL\\Desktop\\AUI - Fall 2021\\Adv & Dist programming paradigms\\homework2",
+			"workspaceFolder": "c:\\Users\\DELL\\Desktop\\AUI - Fall 2021\\Adv & Dist programming paradigms\\homework2",
+			"args": "",
+			"javaDebug": false,
+			"problemMatcher": [
+				"$gradle"
+			],
+			"label": "gradle: jar"
+		}
+	]
+}
